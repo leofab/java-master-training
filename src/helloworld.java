@@ -255,6 +255,8 @@ public class helloworld {
 
         * */
 
+        /*
+
         FirstMethod("hello");
 
         int result1 = SumTwoNumbers(100,99);
@@ -265,19 +267,31 @@ public class helloworld {
         System.out.println(result2);
         double result3 = SumNumbers(1.1,2.2,2.3, 4.2);
         System.out.println(result3);
+
+        * */
+
+        // Objects and Classes
+
     }
 
+    /*
     public static void FirstMethod(String msg) {
         System.out.println("" +msg);
     }
 
+    * */
+
+    /*
     public static int SumTwoNumbers(int x, int y) {
         int result = x + y;
         return result;
     }
 
+    * */
+
     // Method Overloading
 
+    /*
     public static double SumNumbers (double x, double y, double z){
         double result = x + y + z;
                 return result;
@@ -287,4 +301,6 @@ public class helloworld {
         double result = x + y + z + w;
         return result;
     }
+
+    * */
 }
