@@ -1,5 +1,3 @@
-import java.util.Locale;
-import java.util.Scanner;
 
 public class helloworld {
 
@@ -256,6 +254,13 @@ public class helloworld {
         System.out.println("The min value of the array is: - " +min);
 
         * */
+
+        FirstMethod("hello");
     }
+
+    public static void FirstMethod(String msg) {
+        System.out.println("" +msg);
+    }
+
 
 }
