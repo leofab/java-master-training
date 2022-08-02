@@ -237,6 +237,25 @@ public class helloworld {
 
         }
         * */
+
+        // Exercise 10
+        // Write a java program that finds the max and min of an array
+
+        /*
+        int[] arr = {-100,244,10,29,58,66,98,2,13,-1,-25,122};
+        int max, min;
+            max = arr[0];
+            min = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) max = arr[i];
+        }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < min) min = arr[i];
+        }
+        System.out.println("The max value of the array is: - " +max);
+        System.out.println("The min value of the array is: - " +min);
+
+        * */
     }
 
 }
