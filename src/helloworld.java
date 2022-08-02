@@ -300,6 +300,23 @@ public class helloworld {
             // Static variables
             // When a variable is declared as static, then a single copy of the variable
             // is created and shared among all objects at a class level
+
+        // NON-Access Modifiers
+        // Classes
+            // final - the class cannot be inherited by other classes
+            // abstract - the class cannot be used to create objects
+        //Attributes and Method
+            // final        - Attributes and methods cannot be overridden/modified
+            // abstract     - Can only be used in an abstract class, and can only
+            //                be used on methods, The method does not have a body
+            //                for example abstract void run(); The body is provided
+            //                by the subclass.
+            // static       - Attributes and methods belong to the class, rather than an object
+            // volatile     - The value of an attribute is not cached thread-locally, and
+            //                is always read from the 'main memory'
+            // transient    - Attributes and methods are skipped when serializing the object
+            //                containing them
+            // synchronized - Methods can only be accessed by one thread at a time
     }
 
     /*
