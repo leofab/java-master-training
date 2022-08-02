@@ -6,6 +6,8 @@ public class Student {
     private String color;
     private char sex;
 
+    private static int id = 0;
+
     // Behaviours = Methods
     // Methods: blocks of code which only runs when called.
 
@@ -29,6 +31,7 @@ public class Student {
         this.age = age;
         this.color = color;
         this.sex = sex;
+        id++;
     }
 
     // Getters
@@ -49,6 +52,11 @@ public class Student {
     public char getSex(){
         return sex;
     }
+
+    public int getId(){
+        return id;
+    }
+
 
 
     // Setter

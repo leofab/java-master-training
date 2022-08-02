@@ -273,6 +273,7 @@ public class helloworld {
         // Objects and Classes
 
         Student student1 = new Student("John",18,"black",'M');
+        Student student2 = new Student("Daniel",33,"calvo",'B');
 
         // calling the behaviors of objects
 
@@ -284,6 +285,21 @@ public class helloworld {
         student1.Eating();
 
         System.out.println(student1.getName());
+        System.out.println(student1.getId());
+        System.out.println(student2.getId());
+
+        // Types and Variables
+            // There are three types of variables in Java:
+
+            // Local variables (non static)
+            // A variable defined within a block or method or constructor
+
+            // Instance variable (non static)
+            // are declared in a class outside any method, constructor or block
+
+            // Static variables
+            // When a variable is declared as static, then a single copy of the variable
+            // is created and shared among all objects at a class level
     }
 
     /*
