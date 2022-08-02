@@ -256,10 +256,18 @@ public class helloworld {
         * */
 
         FirstMethod("hello");
+
+        int result1 = SumTwoNumbers(100,99);
+        System.out.println(result1);
     }
 
     public static void FirstMethod(String msg) {
         System.out.println("" +msg);
+    }
+
+    public static int SumTwoNumbers(int x, int y) {
+        int result = x + y;
+        return result;
     }
 
 
