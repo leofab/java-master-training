@@ -272,14 +272,14 @@ public class helloworld {
 
         // Objects and Classes
 
-        Student student1 = new Student();
+        Student student1 = new Student("John",18,"black",'M');
 
         // calling the behaviors of objects
 
-        student1.name = "John";
-        student1.age = 18;
-        student1.color = "black";
-        student1.sex = 'M';
+//        student1.name = "John";
+//        student1.age = 18;
+//        student1.color = "black";
+//        student1.sex = 'M';
 
         student1.Eating();
 

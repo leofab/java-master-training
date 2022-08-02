@@ -21,5 +21,13 @@ public class Student {
         System.out.println("Running");
     }
 
+    // Constructor
 
+
+    public Student(String name, int age, String color, char sex) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        this.sex = sex;
+    }
 }
