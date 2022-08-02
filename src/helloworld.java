@@ -218,6 +218,7 @@ public class helloworld {
         // Write a java program that inserts an element into array (!!! You cannot alter array sizes !!!)
         //                                                          USE COLLECTIONS INSTEAD
 
+        /*
         int[] my_array= {25,14,56,15,36};
 
         // Insert an element (99) at 3rd position
@@ -226,6 +227,16 @@ public class helloworld {
         for (int i = my_array.length-1; i>index_to_insert; i--) {
             my_array[i] = my_array[i-1];
         }
+
+        my_array[index_to_insert] = 99;
+
+        for (int i = 0; i < my_array.length; i++){
+            System.out.println(my_array[i]);
+
+            // With this you cannot alter the size of the array, so the last item would be missed.
+
+        }
+        * */
     }
 
 }
