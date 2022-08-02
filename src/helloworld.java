@@ -259,6 +259,12 @@ public class helloworld {
 
         int result1 = SumTwoNumbers(100,99);
         System.out.println(result1);
+
+        // Method Overloading
+        double result2 = SumNumbers(1.1,2.2,2.3);
+        System.out.println(result2);
+        double result3 = SumNumbers(1.1,2.2,2.3, 4.2);
+        System.out.println(result3);
     }
 
     public static void FirstMethod(String msg) {
@@ -270,5 +276,15 @@ public class helloworld {
         return result;
     }
 
+    // Method Overloading
 
+    public static double SumNumbers (double x, double y, double z){
+        double result = x + y + z;
+                return result;
+    }
+
+    public static double SumNumbers (double x, double y, double z, double w){
+        double result = x + y + z + w;
+        return result;
+    }
 }
