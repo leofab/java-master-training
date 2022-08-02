@@ -1,10 +1,10 @@
 public class Student {
 
     // States
-    String name;
-    int age;
-    String color;
-    char sex;
+    private String name;
+    private int age;
+    private String color;
+    private char sex;
 
     // Behaviours = Methods
     // Methods: blocks of code which only runs when called.
@@ -29,5 +29,44 @@ public class Student {
         this.age = age;
         this.color = color;
         this.sex = sex;
+    }
+
+    // Getters
+    // The get method returns the variable value.
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public char getSex(){
+        return sex;
+    }
+
+
+    // Setter
+    // The set method sets the value.
+
+    public void setName(String newName){
+        this.name = newName;
+    }
+
+    public void setAge(int newAge){
+        this.age = newAge;
+    }
+
+    public void setColor(String newColor){
+        this.color = newColor;
+    }
+
+    public void setSex(char newSex){
+        this.sex = newSex;
     }
 }

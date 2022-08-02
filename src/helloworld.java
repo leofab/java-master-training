@@ -283,6 +283,7 @@ public class helloworld {
 
         student1.Eating();
 
+        System.out.println(student1.getName());
     }
 
     /*
